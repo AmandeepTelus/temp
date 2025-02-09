@@ -77,7 +77,7 @@ export default function Home() {
           </li>
         </ul>
       </nav>
-      <h1>COZEY ORDER HOME</h1>
+      <h1>ORDER HOME</h1>
       <form onSubmit={handleSubmit}>
         {formData.items.map((item, index) => (
           <div key={index}>
